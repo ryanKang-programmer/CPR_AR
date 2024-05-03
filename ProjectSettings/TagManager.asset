@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Epinephrine
+  - Amiodarone
+  - Timer2
+  - EpiTimer
+  - CPRTimer
+  - Doc_Cur_1
+  - Doc_Cur_2
+  - Doc_Cur_3
+  - Doc_Next_1
+  - Doc_Next_2
+  - Doc_Next_3
+  - Nurse_Cur_1
+  - Nurse_Cur_2
+  - Nurse_Cur_3
+  - Nurse_Next_1
+  - Nurse_Next_2
+  - Nurse_Next_3
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Spatial Awareness
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
