@@ -37,8 +37,8 @@ public class MedicationEventManager : MonoBehaviour
         Ready = GetComponent<RawImage>();
         NotReady = GetComponent<RawImage>();
         //Change the Texture to be the one you define in the Inspector
-        Ready.texture = TextureReady;
-        NotReady.texture = TextureNotReady;
+        // Ready.texture = TextureReady;
+        // NotReady.texture = TextureNotReady;
     }
 
     // Update is called once per frame

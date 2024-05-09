@@ -114,7 +114,7 @@ public class EventManager : MonoBehaviour
            Nurse_Next_3 = GameObject.FindWithTag("Nurse_Next_3").GetComponent<TextMeshProUGUI>();
         }
 
-        var uri = new Uri("http://localhost:3000");
+        var uri = new Uri("http://136.159.140.66");
 
         socket = new SocketIOUnity(uri);
 

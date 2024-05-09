@@ -21,6 +21,25 @@ TagManager:
   - Nurse_Next_1
   - Nurse_Next_2
   - Nurse_Next_3
+  - NumberOfGluconate
+  - PlusGluconate
+  - MinusGluconate
+  - AmiCount
+  - AtroCount
+  - EpiCount
+  - LidoCount
+  - FenCount
+  - KenCount
+  - MidCount
+  - MorCount
+  - RocCount
+  - SucCount
+  - CalGCount
+  - CalCCount
+  - SalCount
+  - SodCount
+  - InsCount
+  - GluCount
   layers:
   - Default
   - TransparentFX
