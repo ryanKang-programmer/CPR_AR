@@ -40,6 +40,11 @@ TagManager:
   - SodCount
   - InsCount
   - GluCount
+  - algoImg
+  - CPRTimerPlate
+  - EpiTimerPlate
+  - Medication_UI
+  - Notifications
   layers:
   - Default
   - TransparentFX
