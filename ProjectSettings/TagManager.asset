@@ -45,6 +45,7 @@ TagManager:
   - EpiTimerPlate
   - Medication_UI
   - Notifications
+  - CardiacRhythm
   layers:
   - Default
   - TransparentFX

@@ -26,6 +26,8 @@ public class MedicationEvent : MonoBehaviour
     TextMeshProUGUI InsCount;
     TextMeshProUGUI GluCount;
 
+    int max_count = 9999;
+
     void Start()
     {
 
@@ -42,6 +44,10 @@ public class MedicationEvent : MonoBehaviour
             AmiCount = GameObject.FindWithTag("AmiCount").GetComponent<TextMeshProUGUI>();
         }
         int val = int.Parse(AmiCount.text);
+
+        if (val > max_count) {
+            return;
+        }
 
         val++;
 
@@ -67,6 +73,10 @@ public class MedicationEvent : MonoBehaviour
         }
         int val = int.Parse(AtroCount.text);
 
+        if (val > max_count) {
+            return;
+        }
+
         val++;
 
         AtroCount.text = val.ToString();
@@ -90,6 +100,10 @@ public class MedicationEvent : MonoBehaviour
             EpiCount = GameObject.FindWithTag("EpiCount").GetComponent<TextMeshProUGUI>();
         }
         int val = int.Parse(EpiCount.text);
+
+        if (val > max_count) {
+            return;
+        }
 
         val++;
 
@@ -115,6 +129,10 @@ public class MedicationEvent : MonoBehaviour
         }
         int val = int.Parse(LidoCount.text);
 
+        if (val > max_count) {
+            return;
+        }
+
         val++;
 
         LidoCount.text = val.ToString();
@@ -138,6 +156,10 @@ public class MedicationEvent : MonoBehaviour
             FenCount = GameObject.FindWithTag("FenCount").GetComponent<TextMeshProUGUI>();
         }
         int val = int.Parse(FenCount.text);
+
+        if (val > max_count) {
+            return;
+        }
 
         val++;
 
@@ -163,6 +185,10 @@ public class MedicationEvent : MonoBehaviour
         }
         int val = int.Parse(KenCount.text);
 
+        if (val > max_count) {
+            return;
+        }
+
         val++;
 
         KenCount.text = val.ToString();
@@ -186,6 +212,10 @@ public class MedicationEvent : MonoBehaviour
             MidCount = GameObject.FindWithTag("MidCount").GetComponent<TextMeshProUGUI>();
         }
         int val = int.Parse(MidCount.text);
+
+        if (val > max_count) {
+            return;
+        }
 
         val++;
 
@@ -211,6 +241,10 @@ public class MedicationEvent : MonoBehaviour
         }
         int val = int.Parse(MorCount.text);
 
+        if (val > max_count) {
+            return;
+        }
+
         val++;
 
         MorCount.text = val.ToString();
@@ -234,6 +268,10 @@ public class MedicationEvent : MonoBehaviour
             RocCount = GameObject.FindWithTag("RocCount").GetComponent<TextMeshProUGUI>();
         }
         int val = int.Parse(RocCount.text);
+
+        if (val > max_count) {
+            return;
+        }
 
         val++;
 
@@ -259,6 +297,10 @@ public class MedicationEvent : MonoBehaviour
         }
         int val = int.Parse(SucCount.text);
 
+        if (val > max_count) {
+            return;
+        }
+
         val++;
 
         SucCount.text = val.ToString();
@@ -282,6 +324,10 @@ public class MedicationEvent : MonoBehaviour
             CalGCount = GameObject.FindWithTag("CalGCount").GetComponent<TextMeshProUGUI>();
         }
         int val = int.Parse(CalGCount.text);
+
+        if (val > max_count) {
+            return;
+        }
 
         val++;
 
@@ -307,6 +353,10 @@ public class MedicationEvent : MonoBehaviour
         }
         int val = int.Parse(CalCCount.text);
 
+        if (val > max_count) {
+            return;
+        }
+
         val++;
 
         CalCCount.text = val.ToString();
@@ -330,6 +380,10 @@ public class MedicationEvent : MonoBehaviour
             SalCount = GameObject.FindWithTag("SalCount").GetComponent<TextMeshProUGUI>();
         }
         int val = int.Parse(SalCount.text);
+
+        if (val > max_count) {
+            return;
+        }
 
         val++;
 
@@ -355,6 +409,10 @@ public class MedicationEvent : MonoBehaviour
         }
         int val = int.Parse(SodCount.text);
 
+        if (val > max_count) {
+            return;
+        }
+
         val++;
 
         SodCount.text = val.ToString();
@@ -379,6 +437,10 @@ public class MedicationEvent : MonoBehaviour
         }
         int val = int.Parse(InsCount.text);
 
+        if (val > max_count) {
+            return;
+        }
+
         val++;
 
         InsCount.text = val.ToString();
@@ -402,6 +464,10 @@ public class MedicationEvent : MonoBehaviour
             GluCount = GameObject.FindWithTag("GluCount").GetComponent<TextMeshProUGUI>();
         }
         int val = int.Parse(GluCount.text);
+
+        if (val > max_count) {
+            return;
+        }
 
         val++;
 
